@@ -10,6 +10,8 @@ body {
 }
 
 
+
+/*container for entire page*/
 #container{
     width: 100%;
     max-width: 1200px;
@@ -81,6 +83,7 @@ body {
     margin-left: 0px;
 }
 
+/*resume job descriptions*/
 .description{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -96,6 +99,8 @@ li{
     font-size: 1em;
 }
 
+
+/*contact info menu at top*/
 .menu{
     margin: 0 auto;  
     display: inline-flex;
@@ -107,11 +112,15 @@ li{
     
 }
 
+
+/*degree explanation*/
 #degrees{
     margin-top: 5px;
     margin: 0px;
 }
 
+
+/*skills description resum*/
 #do{
     margin-top: 5px;
     margin-bottom: 0px;
