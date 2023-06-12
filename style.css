@@ -8,12 +8,24 @@ body {
     font-weight: 400;
 }
 
+
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 /*banner name at top*/
-h1{
+#name {
     font-size: 3em;
     text-transform: uppercase;
     text-align: center;
     color: #33485e;
+    border-bottom: 1px solid #33485e; 
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /*title*/
@@ -24,11 +36,17 @@ strong {
 }
 
 /*section titles*/
-h2{
+.sectionheader{
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
     color: #fff;
+    margin-bottom: 10px;
+    margin-top: 20;
+    margin-right: 0;
+    margin margin-left: 0;
+    width: 70%;
+    min-width: 300px;
 }
 
 
