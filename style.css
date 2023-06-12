@@ -2,6 +2,7 @@
 /*styles for my resume*/
 
 body {
+
     font-family: 'open sans' ,arial, sans-serif;
     font-size: 1em;
     color: #444;
@@ -29,10 +30,16 @@ body {
 }
 
 /*title*/
-strong {
+#title{
     color: #33485e;
     text-transform: uppercase;
     font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 /*section titles*/
@@ -44,31 +51,44 @@ strong {
     margin-bottom: 10px;
     margin-top: 20;
     margin-right: 0;
-    margin margin-left: 0;
+    margin-left: 0;
     width: 70%;
     min-width: 300px;
 }
 
 
 /*job titles*/
-h3{
+.jobtitle{
     font-weight: 600;
     font-size: 1.5em;
 
 }
 
 /*job organization*/
-h4{
+.organization{
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 /*job date*/
-h5{
+.date{
     font-weight: 400;
     font-size: 1em;
     font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
+
+.description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+}
+
 
 
 /*contact info, skills, education*/
@@ -76,3 +96,33 @@ li{
     font-size: 1em;
 }
 
+.menu{
+    margin: 0 auto;  
+    display: inline-flex;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#degrees{
+    margin-top: 5px;
+    margin: 0px;
+}
+
+#do{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.top{
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  
+}
